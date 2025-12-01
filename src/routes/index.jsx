@@ -7,16 +7,16 @@ export default function Routing() {
         <Router>
             <Header />
             <Routes>
-                <Route path="/home" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/attraction" element={<Attraction />} />
-                <Route path="/lodge" element={<Lodge />} />
-                <Route path="/culinary" element={<Culinary />} />
-                <Route path="/transportation" element={<Transportation />} />
-                <Route path="/culture" element={<Culture />} />
-                <Route path="/gallery" element={<Gallery />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/roadmap" element={<Roadmap />} />
+                <Route path="/singkawang-guide/home" element={<Home />} />
+                <Route path="/singkawang-guide/about" element={<About />} />
+                <Route path="/singkawang-guide/attraction" element={<Attraction />} />
+                <Route path="/singkawang-guide/lodge" element={<Lodge />} />
+                <Route path="/singkawang-guide/culinary" element={<Culinary />} />
+                <Route path="/singkawang-guide/transportation" element={<Transportation />} />
+                <Route path="/singkawang-guide/culture" element={<Culture />} />
+                <Route path="/singkawang-guide/gallery" element={<Gallery />} />
+                <Route path="/singkawang-guide/contact" element={<Contact />} />
+                <Route path="/singkawang-guide/roadmap" element={<Roadmap />} />
             </Routes>
             <Footer />
         </Router>
