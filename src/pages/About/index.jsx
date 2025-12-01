@@ -27,9 +27,9 @@ export default function About() {
                     <div className="rounded-xl border p-6 bg-yellow-50">
                         <h3 className="font-semibold">Want more details?</h3>
                         <p className="mt-2 text-sm text-gray-700">Visit the&nbsp;
-                            <a href={'/gallery'} className="cursor-pointer underline">Gallery</a>,&nbsp;  
-                            <a href={'/culture'} className="cursor-pointer underline">Cultures</a>, or&nbsp; 
-                            <a href={'/roadmap'} className="cursor-pointer underline">Roadmap</a>&nbsp; 
+                            <a href={'/singkawang-guide/gallery'} className="cursor-pointer underline">Gallery</a>,&nbsp;  
+                            <a href={'/singkawang-guide/culture'} className="cursor-pointer underline">Cultures</a>, or&nbsp; 
+                            <a href={'/singkawang-guide/roadmap'} className="cursor-pointer underline">Roadmap</a>&nbsp; 
                             pages for photos and first-hand stories.
                         </p>
                     </div>

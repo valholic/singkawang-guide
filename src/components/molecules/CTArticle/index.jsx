@@ -6,7 +6,7 @@ export default function CTArticle({ img, title, desc, dest }) {
                 <h4 className="font-semibold">{title}</h4>
                 <p className="mt-2 text-sm text-gray-600">{desc}</p>
                 <div className="mt-4">
-                    <a href={dest} className="text-sm font-medium text-yellow-600">Read more →</a>
+                    <a href={`/singkawang-guide/${dest}`} className="text-sm font-medium text-yellow-600">Read more →</a>
                 </div>
             </div>
         </article>

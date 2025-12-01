@@ -25,7 +25,7 @@ export default function CultureH() {
             <h3 className="text-2xl font-semibold">Culture & Events</h3>
             <p className="text-gray-600 mt-2">A glimpse into traditions and festivals.</p>
             <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-                {culture.map((c, i) => <CultureArticle key={i} icon={c.icon} title={c.title} desc={c.desc} dest={`/culture`} />)}
+                {culture.map((c, i) => <CultureArticle key={i} icon={c.icon} title={c.title} desc={c.desc} dest={`/singkawang-guide/culture`} />)}
             </div>
         </section>
     )

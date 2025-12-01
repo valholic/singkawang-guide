@@ -17,7 +17,7 @@ import TransportCard from "./TransportCard";
 import StepCardD from "./StepCardD";
 import StepCardM from "./StepCardM";
 import RoadmapCardD from "./RoadmapCardD";
-import RoadmapCardM from "./RoadmapM";
+import RoadmapCardM from "./RoadmapCardM";
 import SelectCard from "./SelectCard";
 import CultureCard from "./CultureCard";
 import Hamburger from "./Hamburger";
