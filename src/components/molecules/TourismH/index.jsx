@@ -26,7 +26,7 @@ export default function TourismH() {
             <h3 className="text-2xl font-semibold">Tourism Highlights</h3>
             <p className="text-gray-600 mt-2">Handpicked spots to add to your itinerary.</p>
             <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-                {tourism.map((t, i) => <CTArticle key={i} img={t.img} desc={t.desc} title={t.title} dest={`/singkawang-guide/attraction`} />)}
+                {tourism.map((t, i) => <CTArticle key={i} img={t.img} desc={t.desc} title={t.title} dest={`/singkawang-guide/#/attraction`} />)}
             </div>
         </section>
     )

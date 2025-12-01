@@ -26,7 +26,7 @@ export default function CulinaryH() {
             <h3 className="text-2xl font-semibold">Culinary Highlights</h3>
             <p className="text-gray-600 mt-2">Local flavors you should try.</p>
             <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-                {culinary.map((c, i) => <CTArticle key={i} img={c.img} title={c.name} desc={c.desc} dest={`/singkawang-guide/culinary`} />)}
+                {culinary.map((c, i) => <CTArticle key={i} img={c.img} title={c.name} desc={c.desc} dest={`/singkawang-guide/#/culinary`} />)}
             </div>
         </section>
     )

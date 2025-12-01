@@ -9,11 +9,11 @@ export default function Footer() {
                 <div>
                     <h6 className="font-semibold">Quick Links</h6>
                     <ul className="mt-3 text-sm text-gray-600 space-y-2">
-                        <li><a href={'/singkawang-guide/attraction'} className="hover:text-yellow-600">Top Spots</a></li>
-                        <li><a href={'/singkawang-guide/culinary'} className="hover:text-yellow-600">Food</a></li>
-                        <li><a href={'/singkawang-guide/culture'} className="hover:text-yellow-600">Culture</a></li>
-                        <li><a href={'/singkawang-guide/lodge'} className="hover:text-yellow-600">Lodge</a></li>
-                        <li><a href={'/singkawang-guide/transportation'} className="hover:text-yellow-600">Transportation</a></li>
+                        <li><a href={'/singkawang-guide/#/attraction'} className="hover:text-yellow-600">Top Spots</a></li>
+                        <li><a href={'/singkawang-guide/#/culinary'} className="hover:text-yellow-600">Food</a></li>
+                        <li><a href={'/singkawang-guide/#/culture'} className="hover:text-yellow-600">Culture</a></li>
+                        <li><a href={'/singkawang-guide/#/lodge'} className="hover:text-yellow-600">Lodge</a></li>
+                        <li><a href={'/singkawang-guide/#/transportation'} className="hover:text-yellow-600">Transportation</a></li>
                     </ul>
                 </div>
                 <div>

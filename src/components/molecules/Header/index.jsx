@@ -16,14 +16,14 @@ export default function Header() {
                         <img src={Logo} className="w-full h-full" />
                     </div>
                     <div>
-                        <a href="/singkawang-guide/home" className="text-lg font-semibold tracking-tight">Singkawang</a>
+                        <a href="/singkawang-guide/#/home" className="text-lg font-semibold tracking-tight">Singkawang</a>
                         <div className="text-xs text-gray-500">The City of Thousand Temples</div>
                     </div>
                 </div>
 
                 <nav className="hidden lg:flex items-center gap-6 text-sm">
                     {path.map((name, i) => {
-                        return <a href={`/singkawang-guide/${name.toLowerCase()}`} key={i} className={`hover:bg-slate-200 p-2 rounded-2xl ${location === `/${name.toLowerCase()}`? "animate-bounce bg-slate-200" : "animate-none"}`}>{name}</a>
+                        return <a href={`/singkawang-guide/#/${name.toLowerCase()}`} key={i} className={`hover:bg-slate-200 p-2 rounded-2xl ${location === `/${name.toLowerCase()}`? "animate-bounce bg-slate-200" : "animate-none"}`}>{name}</a>
                     })}
                 </nav>
 

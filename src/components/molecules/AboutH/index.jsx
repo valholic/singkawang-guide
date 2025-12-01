@@ -11,7 +11,7 @@ export default function AboutH() {
                     <h2 className="text-3xl font-semibold">About Singkawang</h2>
                     <p className="mt-4 text-gray-600 leading-relaxed">Singkawang is a coastal town known for its rich cultural blend of Chinese and local traditions. From colorful temples to bustling markets and delicious street food — the city rewards curious travelers with memorable experiences.</p>
                     <div className="mt-6">
-                        <a href={"/singkawang-guide/about"} className="inline-block px-5 py-3 rounded-md bg-yellow-100 border hover:bg-yellow-200">Learn more</a>
+                        <a href={"/singkawang-guide/#/about"} className="inline-block px-5 py-3 rounded-md bg-yellow-100 border hover:bg-yellow-200">Learn more</a>
                     </div>
                 </div>
             </div>
