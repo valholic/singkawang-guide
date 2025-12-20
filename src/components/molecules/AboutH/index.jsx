@@ -1,11 +1,9 @@
-import { Tatung } from "../../../assets";
-
 export default function AboutH() {
     return (
         <section id="about" className="max-w-6xl mx-auto px-6 py-16">
             <div className="grid grid-cols-1 md:grid-cols-12 md:gap-8 items-center">
                 <div className="col-span-6">
-                    <img src={Tatung} alt="Singkawang city" className="w-full object-fill h-80 md:h-100 lg:h-120" />
+                    <img src={'https://drive.google.com/thumbnail?id=1qIk00ljnzN_OplHLj4xODE80FsZUXaXi&sz=s1000'} alt="Singkawang city" className="w-full object-fill h-80 md:h-100 lg:h-120" />
                 </div>
                 <div className="col-span-6">
                     <h2 className="text-3xl font-semibold">About Singkawang</h2>

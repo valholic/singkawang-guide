@@ -1,9 +1,7 @@
-import { TanjungBajau } from "../../../assets";
-
 export default function Hero() {
     return (
         <section className="relative">
-            <div className="h-[540px] bg-cover bg-center bg-blend-overlay bg-black/30" style={{ backgroundImage: `url('${TanjungBajau}')` }}>
+            <div className="h-[540px] bg-cover bg-center bg-blend-overlay bg-black/30" style={{ backgroundImage: `url('https://drive.google.com/thumbnail?id=1VAtwErvb9RWZ-BxuDQW3PBfHjDeU1v7q&sz=s1000')` }}>
                 <div className="w-full mx-auto px-6 h-full flex items-center">
                     <div className="text-white max-w-2xl">
                         <h1 className="text-5xl font-extrabold leading-tight drop-shadow-lg">Welcome to Singkawang</h1>

@@ -1,5 +1,4 @@
 import { FaPlane, FaBus, FaCar, FaTaxi, FaShuttleVan, FaMotorcycle } from "react-icons/fa";
-import { Angkot, BandaraSkw, BandaraSpd, Bus, Car, Gojek, Grab } from "../../assets";
 import { StepCardD, StepCardM, TransportCard } from "../../components";
 import { Helmet } from "react-helmet-async";
 
@@ -8,25 +7,25 @@ export default function Transportation() {
         {
         icon: <FaPlane className="text-yellow-500 text-3xl" />,
         title: "By Plane(Direct flight)",
-        img: BandaraSkw,
+        img: "https://drive.google.com/thumbnail?id=103nhaf-VeDNppvs2LGLui5bI9ZXrD85F&sz=s1000",
         desc: "You can fly directly to Singkawang Airport (SWQ), which currently serves limited domestic routes. It is the closest airport to the city, offering the fastest way to reach Singkawang when flights are available.",
         },
         {
         icon: <FaPlane className="text-yellow-500 text-3xl" />,
         title: "By Plane(Transit by car/bus)",
-        img: BandaraSpd,
+        img: "https://drive.google.com/thumbnail?id=1PZWXDEquf55LM7SFITF4e4F61XoqvQBa&sz=s1000",
         desc: "Fly to Supadio Airport in Pontianak (PNK), then continue your journey to Singkawang by car or bus. The trip takes about 3–4 hours and is the most common route for most travelers.",
         },
         {
         icon: <FaBus className="text-yellow-500 text-3xl" />,
         title: "By Bus",
-        img: Bus,
+        img: "https://drive.google.com/thumbnail?id=1-PI_euQ1Tk-BLPd68siKtA_kcpfYjeVF&sz=s1000",
         desc: "Daily intercity buses and travel shuttles operate from Pontianak to Singkawang, taking around 3–4 hours. It’s an affordable option with comfortable rides along the Trans-Kalimantan route.",
         },
         {
         icon: <FaCar className="text-yellow-500 text-3xl" />,
         title: "By Car",
-        img: Car,
+        img: "https://drive.google.com/thumbnail?id=1pI1oL9sh3Zac9dUc5FUTsjLWfdnvgtmx&sz=s1000",
         desc: "You can drive from Pontianak to Singkawang in about 3 hours via the Trans-Kalimantan Highway. This option offers flexibility and scenic views along coastal and small-town areas.",
         },
     ];
@@ -35,19 +34,19 @@ export default function Transportation() {
         {
         icon: <FaTaxi className="text-yellow-500 text-3xl" />,
         title: "Grab",
-        img: Grab,
+        img: "https://drive.google.com/thumbnail?id=1sV1pClAxmSj9aHpQcDM-N9zenbCJJf0H&sz=s1000",
         desc: "Grab is widely available in Singkawang, offering convenient rides for short trips, sightseeing, and daily transportation around the city.",
         },
         {
         icon: <FaMotorcycle className="text-yellow-500 text-3xl" />,
         title: "Gojek",
-        img: Gojek,
+        img: "https://drive.google.com/thumbnail?id=1CKmvQfG1FoQGcUoPc-PKtcP1ithnBFxq&sz=s1000",
         desc: "Gojek is available in certain areas, though with fewer drivers compared to larger cities. It’s useful for quick motorbike rides when available.",
         },
         {
         icon: <FaShuttleVan className="text-yellow-500 text-3xl" />,
         title: "Angkot",
-        img: Angkot,
+        img: "https://drive.google.com/thumbnail?id=1Efx4qfPuTDuQ9kKa2qakSrXFM2tl04zz&sz=s1000",
         desc: "Public minibuses (angkot) operate on fixed routes across the city and are one of the most affordable ways to travel short distances around Singkawang.",
         },
     ];

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import Hamburger from "../Hamburger";
-import { Logo } from "../../../assets";
 
 export default function Header() {
     const location = useLocation().pathname;
@@ -13,7 +12,7 @@ export default function Header() {
             <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
                 <div className="flex items-center gap-4">
                     <div className="w-20 h-20 rounded-full flex items-center justify-center">
-                        <img src={Logo} className="w-full h-full" />
+                        <img src={"https://drive.google.com/thumbnail?id=1XnF8D6xr9AOv5ixY1MEU7SzRS7QlzioO&sz=s1000"} className="w-full h-full" />
                     </div>
                     <div>
                         <a href="/singkawang-guide/#/home" className="text-lg font-semibold tracking-tight">Singkawang</a>

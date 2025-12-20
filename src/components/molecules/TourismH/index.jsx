@@ -1,4 +1,3 @@
-import { PasirPanjang, PulauSimping, Temple3 } from "../../../assets";
 import CTArticle from "../CTArticle";
 
 export default function TourismH() {
@@ -6,17 +5,17 @@ export default function TourismH() {
         {
             title: "Vihara Tri Dharma Bumi Raya",
             desc: "A historic Chinese temple known for its ornate architecture, incense rituals, and vibrant festival celebrations.",
-            img: Temple3,
+            img: "https://drive.google.com/thumbnail?id=1KDBdi2Ja6Ionb61RrBfbXZaJ8UodCIeQ&sz=s1000",
         },
         {
             title: "Pasir Panjang Beach",
             desc: "A long sandy beach with calm waves, popular for sunset views, swimming, and freshly served seafood stalls.",
-            img: PasirPanjang,
+            img: "https://drive.google.com/thumbnail?id=1k7v52FEZ0wGXdoZwflcIga6rQF3cOXJD&sz=s1000",
         },
         {
             title: "Simping Island",
             desc: "Recognized as one of the world’s smallest islands, offering coastal views, photo spots, and a peaceful seaside walkway.",
-            img: PulauSimping,
+            img: "https://drive.google.com/thumbnail?id=1jm6eQiDxtxfPXYpDD9mcadDOmIdJwnEK&sz=s1000",
         },
     ];
 

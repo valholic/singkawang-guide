@@ -1,4 +1,3 @@
-import { Bakmie, Choipan, Kaifon } from "../../../assets";
 import CTArticle from "../CTArticle";
 
 export default function CulinaryH() {
@@ -6,17 +5,17 @@ export default function CulinaryH() {
         {
             name: "Kaifon",
             desc: "A beloved Singkawang comfort dish with roasted pork, char siu, tender chicken, soy-braised egg, fresh cucumbers, and a warm savory broth.",
-            img: Kaifon,
+            img: "https://drive.google.com/thumbnail?id=11z8oBHwapuFG7COkUEx5N19F8zwWs59n&sz=s1000",
         },
         {
             name: "Bakmie Hijau",
             desc: "Green-colored noodles made from natural ingredients, served with meat, seafood, and Singkawang-style seasonings.",
-            img: Bakmie,
+            img: "https://drive.google.com/thumbnail?id=1qFEjJmdZFqhdGsYwbYUWNmXBFsiZ-ehC&sz=s1000",
         },
         {
             name: "Choipan",
             desc: "Steamed dumplings filled with shredded jicama or chives, topped with fried garlic and a light garlic sauce.",
-            img: Choipan,
+            img: "https://drive.google.com/thumbnail?id=1jyHh_N71mqLTEFX68SzxuXxasEKNLQ44&sz=s1000",
         },
     ];
 

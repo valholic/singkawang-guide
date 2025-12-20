@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import { Funfact, History } from "../../components";
-import { Temple2 } from "../../assets";
 import { Helmet } from "react-helmet-async";
 
 export default function About() {
@@ -18,7 +16,7 @@ export default function About() {
                         <h1 className="text-3xl font-extrabold">About Singkawang</h1>
                         <p className="text-gray-600 text-justify">Singkawang or San-Khew-Jong(山口洋) is a coastal city and port located in the province of West Kalimantan, on the island of Borneo in Indonesia. It is located at about 145 km north of Pontianak, the provincial capital, and is surrounded by the Pasi, Poteng, and Sakkok mountains. In addition, the ancestors of the Hakka Chinese community named this area in Hakka as "San-Khew-Jong" (Mount-Mouth-Sea), which means "A city located at the foot of a mountain near the sea and has a river that flows up to the mouth of the river (estuary)."</p>
                     </div>
-                    <img src={Temple2} alt="Singkawang" className="md:w-1/2 h-80 object-cover rounded-xl shadow-2xl" />
+                    <img src={"https://drive.google.com/thumbnail?id=1k30EP1jGibLyZCigmZcoCnNhvC-8HuWj&sz=s1000"} alt="Singkawang" className="md:w-1/2 h-80 object-cover rounded-xl shadow-2xl" />
                 </section>
                 <Funfact />
                 <History />

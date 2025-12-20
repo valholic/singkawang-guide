@@ -1,29 +1,28 @@
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
-import { BandaraSkw, BatuBelimbing, BuburGunting, Bundaran, CapGoMeh, Choipan, DanauBiru, Horison1, Kaifon, Kwetiau, Mahkota1, Naga, Nona, PasarHongkong, PasirPanjang, Pengkang, PulauSimping, Sgm, Swiss1, Temple3 } from "../../assets";
 import { Helmet } from "react-helmet-async";
 
 const galleryImages = [
-    { src: PasirPanjang, caption: "Beautiful Pasir Panjang Beach" },
-    { src: CapGoMeh, caption: "Cap Go Meh Parade" },
-    { src: Choipan, caption: "Tasty Choipan Snack" },
-    { src: Temple3, caption: "Chinese Temple" },
-    { src: Naga, caption: "Singkawang Dragon Statue" },
-    { src: Bundaran, caption: "Awang Ishak Roundabout" },
-    { src: BuburGunting, caption: "Bubur Gunting Dessert" },
-    { src: Horison1, caption: "Horison Hotel Sunrise" },
-    { src: Mahkota1, caption: "Mahkota Hotel View" },
-    { src: BatuBelimbing, caption: "Batu Belimbing Landmark" },
-    { src: PasarHongkong, caption: "Pasar HongKong Night View" },
-    { src: Kwetiau, caption: "Kwetiau Siram Dish" },
-    { src: Nona, caption: "Es Nona Dessert" },
-    { src: Pengkang, caption: "Grilled Pengkang Snack" },
-    { src: DanauBiru, caption: "Blue Lake Sunset" },
-    { src: Sgm, caption: "Singkawang Grand Mall View" },
-    { src: Swiss1, caption: "Swiss-Belhotel Night" },
-    { src: Kaifon, caption: "Kaifon Local Food" },
-    { src: PulauSimping, caption: "Simping Island View" },
-    { src: BandaraSkw, caption: "Singkawang Airport" },
+    { src: "https://drive.google.com/thumbnail?id=1k7v52FEZ0wGXdoZwflcIga6rQF3cOXJD&sz=s1000", caption: "Beautiful Pasir Panjang Beach" },
+    { src: "https://drive.google.com/thumbnail?id=1444cWQfmuucd_iorMR4TMzTC-P5Kzutd&sz=s1000", caption: "Cap Go Meh Parade" },
+    { src: "https://drive.google.com/thumbnail?id=1jyHh_N71mqLTEFX68SzxuXxasEKNLQ44&sz=s1000", caption: "Tasty Choipan Snack" },
+    { src: "https://drive.google.com/thumbnail?id=1KDBdi2Ja6Ionb61RrBfbXZaJ8UodCIeQ&sz=s1000", caption: "Chinese Temple" },
+    { src: "https://drive.google.com/thumbnail?id=1vp_I0OIUm34lCl7PkxdW8OtMAvDyUQeZ&sz=s1000", caption: "Singkawang Dragon Statue" },
+    { src: "https://drive.google.com/thumbnail?id=1WQFiP8xDIM22QbxRxHBiX41xQ60dcbKH&sz=s1000", caption: "Awang Ishak Roundabout" },
+    { src: "https://drive.google.com/thumbnail?id=1Uy_BQMSriaZJvPGU4y9nK8fua1g6L-Dj&sz=s1000", caption: "Bubur Gunting Dessert" },
+    { src: "https://drive.google.com/thumbnail?id=13GcdL0T_LoMKPSv3nETjRB8FU-wGPrM3&sz=s1000", caption: "Horison Hotel Sunrise" },
+    { src: "https://drive.google.com/thumbnail?id=1jRFm-Wgc9XFQIboe8ifBtjibn1YxlBKL&sz=s1000", caption: "Mahkota Hotel View" },
+    { src: "https://drive.google.com/thumbnail?id=1yBubGw-TjypfKVwoB5BRNGqpQuiBt_cL&sz=s1000", caption: "Batu Belimbing Landmark" },
+    { src: "https://drive.google.com/thumbnail?id=160ZGwVKEORJ8SgJVhR94GnstqbsANs9q&sz=s1000", caption: "Pasar HongKong Night View" },
+    { src: "https://drive.google.com/thumbnail?id=1UQuJ5xxiAJrWLl_Ja902c6UZfI_uBpjM&sz=s1000", caption: "Kwetiau Siram Dish" },
+    { src: "https://drive.google.com/thumbnail?id=1WGiWuUw-usEqpyC1sySS6xZGYMCOWk7r&sz=s1000", caption: "Es Nona Dessert" },
+    { src: "https://drive.google.com/thumbnail?id=1ZpIs_ooDak9ie4w8QexQGFfHmOZdZ4Eu&sz=s1000", caption: "Grilled Pengkang Snack" },
+    { src: "https://drive.google.com/thumbnail?id=15Ocb6qrHAqFkbamySBRPgY-exJ4tS1pW&sz=s1000", caption: "Blue Lake Sunset" },
+    { src: "https://drive.google.com/thumbnail?id=18_LNOJAAeZmB6cTZ30u2mX6fobIOGk-D&sz=s1000", caption: "Singkawang Grand Mall View" },
+    { src: "https://drive.google.com/thumbnail?id=1vCSCJonDJQC548t8T_7Bn17nTxZLMG8e&sz=s1000", caption: "Swiss-Belhotel Night" },
+    { src: "https://drive.google.com/thumbnail?id=11z8oBHwapuFG7COkUEx5N19F8zwWs59n&sz=s1000", caption: "Kaifon Local Food" },
+    { src: "https://drive.google.com/thumbnail?id=1jm6eQiDxtxfPXYpDD9mcadDOmIdJwnEK&sz=s1000", caption: "Simping Island View" },
+    { src: "https://drive.google.com/thumbnail?id=103nhaf-VeDNppvs2LGLui5bI9ZXrD85F&sz=s1000", caption: "Singkawang Airport" },
 ];
 
 export default function Gallery() {
