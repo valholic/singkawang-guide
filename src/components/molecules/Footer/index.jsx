@@ -13,15 +13,16 @@ export default function Footer() {
                         <li><a href={'/singkawang-guide/#/culinary'} className="hover:text-yellow-600">Food</a></li>
                         <li><a href={'/singkawang-guide/#/culture'} className="hover:text-yellow-600">Culture</a></li>
                         <li><a href={'/singkawang-guide/#/lodge'} className="hover:text-yellow-600">Lodge</a></li>
+                        <li><a href={'/singkawang-guide/#/roadmap'} className="hover:text-yellow-600">Roadmap</a></li>
                         <li><a href={'/singkawang-guide/#/transportation'} className="hover:text-yellow-600">Transportation</a></li>
                     </ul>
                 </div>
                 <div>
                     <h6 className="font-semibold">Connect</h6>
                     <div className="mt-3 flex items-center gap-3 text-sm text-gray-600">
-                        <a href="#">Instagram</a>
-                        <a href="#">Facebook</a>
-                        <a href="#">YouTube</a>
+                        <a href="https://www.instagram.com/">Instagram</a>
+                        <a href="https://www.facebook.com/">Facebook</a>
+                        <a href="https://www.youtube.com/">YouTube</a>
                     </div>
                     <div className="mt-6 text-xs text-gray-400">© {new Date().getFullYear()} Singkawang Guide — All rights reserved.</div>
                 </div>

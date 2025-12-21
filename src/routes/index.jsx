@@ -7,7 +7,7 @@ export default function Routing() {
         <Router>
             <Header />
             <Routes>
-                <Route path="/home" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/attraction" element={<Attraction />} />
                 <Route path="/lodge" element={<Lodge />} />

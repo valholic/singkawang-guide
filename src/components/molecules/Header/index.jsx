@@ -5,7 +5,7 @@ import Hamburger from "../Hamburger";
 export default function Header() {
     const location = useLocation().pathname;
     const [open, setOpen] = useState(false);
-    const path = ['Home', 'About', 'Culinary', 'Attraction', 'Culture', 'Lodge', 'Transportation', 'Gallery', 'Roadmap', 'Contact'];
+    const path = ['', 'About', 'Culinary', 'Attraction', 'Culture', 'Lodge', 'Transportation', 'Gallery', 'Roadmap', 'Contact'];
 
     return (
         <header className="sticky top-0 z-40 bg-white/60 backdrop-blur-sm border-b">
@@ -15,7 +15,7 @@ export default function Header() {
                         <img src={"https://drive.google.com/thumbnail?id=1XnF8D6xr9AOv5ixY1MEU7SzRS7QlzioO&sz=s1000"} className="w-full h-full" />
                     </div>
                     <div>
-                        <a href="/singkawang-guide/#/home" className="text-lg font-semibold tracking-tight">Singkawang</a>
+                        <a href="/singkawang-guide/#/" className="text-lg font-semibold tracking-tight">Singkawang</a>
                         <div className="text-xs text-gray-500">The City of Thousand Temples</div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ export default function Header() {
 
                 {/* small-screen menu button (non-functional placeholder) */}
                 <div className="lg:hidden">
-                    <button onClick={() => setOpen(open? false : true)} className={`p-2 ${open? "rounded-md border" : ""} bg-white`}>☰</button>
+                    <button onClick={() => setOpen(open? false : true)} className={`p-2 rounded-md ${open? "border" : ""} bg-white`}>☰</button>
                 </div>
             </div>
             <Hamburger open={open} paths={path} handleOpen={setOpen} />
